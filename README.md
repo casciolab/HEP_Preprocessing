@@ -60,16 +60,6 @@ Each step was carefully chosen to prepare the data for robust HEP detection and 
 
 ---
 
-## 📚 References
-
-[^1]: Klug, M., & Gramann, K. (2021). *Zapline-plus: A Zapline extension for automatic and adaptive removal of frequency-specific noise artifacts in EEG data*. [DOI / Link]
-
-[^2]: Perakakis, P. (2022). *HEPLAB: An open-source MATLAB toolbox for heartbeat-evoked potential analysis*. Available at: [https://github.com/perakakis/HEPLAB](https://github.com/perakakis/HEPLAB)
-
-[^3]: Palmer, J. A., Kreutz-Delgado, K., & Makeig, S. (2008). *AMICA: An adaptive mixture of independent component analyzers with shared components*. [DOI / Link]
-
----
-
 ## 🛠 Tools Used
 
 - MATLAB / EEGLAB  
@@ -89,3 +79,14 @@ Pull requests are welcome! If you have improvements for preprocessing, visualiza
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📚 References
+
+[^1]: Klug, M., & Gramann, K. (2021). *Zapline-plus: A Zapline extension for automatic and adaptive removal of frequency-specific noise artifacts in EEG data*. [DOI / Link]
+
+[^2]: Perakakis, P. (2022). *HEPLAB: An open-source MATLAB toolbox for heartbeat-evoked potential analysis*. Available at: [https://github.com/perakakis/HEPLAB](https://github.com/perakakis/HEPLAB)
+
+[^3]: Palmer, J. A., Kreutz-Delgado, K., & Makeig, S. (2008). *AMICA: An adaptive mixture of independent component analyzers with shared components*. [DOI / Link]
+
