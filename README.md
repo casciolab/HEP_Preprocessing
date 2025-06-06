@@ -36,7 +36,7 @@ Each step was carefully chosen to prepare the data for robust HEP detection and 
    Re-reference the EEG signal (e.g., average or mastoid) to reduce spatial bias.
 
 8. 💓 **R-Peak Detection with HEPLAB**  
-   Detect heartbeat R-peaks using the **HEPLAB toolbox** [^2].
+   Detect heartbeat R-peaks using the **HEPLAB toolbox** [^2]. (Modified Toolbox to run automaticly across subjects)
 
 9. 👁 **Visual Inspection and Correction of R-Peaks**  
    Manually verify and correct any inaccurate R-peak detections.
@@ -62,9 +62,9 @@ Each step was carefully chosen to prepare the data for robust HEP detection and 
 
 ## 📚 References
 
-[^1]: Klug, M. & Gramann, K. (2021). *Zapline-plus: A Zapline extension for automatic and adaptive removal of frequency-specific noise artifacts in EEG data*. [DOI / Link]
+[^1]: Klug, M., & Gramann, K. (2021). *Zapline-plus: A Zapline extension for automatic and adaptive removal of frequency-specific noise artifacts in EEG data*. [DOI / Link]
 
-[^2]: Candia-Rivera, D. et al. (2022). *HEPLAB: An open-source toolbox for heartbeat-evoked potential analysis*. [DOI / Link]
+[^2]: Perakakis, P. (2022). *HEPLAB: An open-source MATLAB toolbox for heartbeat-evoked potential analysis*. Available at: [https://github.com/perakakis/HEPLAB](https://github.com/perakakis/HEPLAB)
 
 [^3]: Palmer, J. A., Kreutz-Delgado, K., & Makeig, S. (2008). *AMICA: An adaptive mixture of independent component analyzers with shared components*. [DOI / Link]
 
@@ -73,10 +73,10 @@ Each step was carefully chosen to prepare the data for robust HEP detection and 
 ## 🛠 Tools Used
 
 - MATLAB / EEGLAB  
-- Zapline-plus  
-- HEPLAB Toolbox  
-- AMICA (EEGLAB plugin)  
-- Custom scripts (see `/scripts/` folder)
+- [Zapline-plus](https://github.com/methlabUZH/zapline-plus)  
+- [HEPLAB](https://github.com/perakakis/HEPLAB)  
+- [AMICA](https://sccn.ucsd.edu/~jason/amicaweb.html)  
+- Custom preprocessing scripts
 
 ---
 
