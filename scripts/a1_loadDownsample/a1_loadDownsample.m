@@ -42,7 +42,7 @@
 % │                                                       │
 %  ﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌ 
 
-%% LICENSE 
+%% LICENSE
 % The license is intended to apply to all codes within this repository.
 %
 % The MIT License
