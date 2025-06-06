@@ -1,4 +1,4 @@
-%% B1_ld - Loading and downsampling.
+%% a1_loadDownsample - Loading and downsampling.
 %
 % This code loads and downsamples the data. 
 %
