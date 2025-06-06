@@ -14,8 +14,8 @@ Following EEG acquisition, the raw data undergoes a comprehensive 12-step prepro
 
 Each step was carefully chosen to prepare the data for robust HEP detection and analysis:
 
-1. 📉 **Downsampling**  
-   Reduce the data sampling rate to optimize processing without loss of relevant information.
+1. 📉 **Loading and Downsampling**  
+   Load data and set the data sampling rate to 512hz to optimize processing without loss of relevant information.
 
 2. 🫀 **Manual ECG Noise Rejection**  
    Visual inspection and manual exclusion of segments with excessive ECG or hardware noise.
