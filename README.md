@@ -82,6 +82,26 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
+📌 **How to Cite Us**
+
+If you use this preprocessing pipeline in your research, please cite the repository as follows:
+
+> Fraile, M., Salamone, P., Zoltowski, A., Quackenbush, W., Keceli-Kaysili, B., & Cascio, C. J. (2025). *HEP_Preprocessing: EEG Preprocessing Pipeline for Heartbeat-Evoked Potentials (HEP) Analysis*. https://github.com/casciolab/HEP_Preprocessing
+
+### 📚 BibTeX
+
+For LaTeX users:
+
+```bibtex
+@misc{fraile2025hep,
+  author       = {Fraile-Vazquez, Matias E.; Salamone, Paula; Zoltowski, Alisa; Quackenbush, William; Keceli-Kaysili, Bahar; Cascio, Carissa J.},
+  title        = {HEP_Preprocessing: EEG Preprocessing Pipeline for Heartbeat-Evoked Potentials (HEP) Analysis},
+  year         = {2025},
+  howpublished = {\url{https://github.com/casciolab/HEP_Preprocessing}},
+  note         = {Version 1.0}
+}
+
+---
 ## 📚 References
 
 [^1]: Klug, M., & Gramann, K. (2021). *Zapline-plus: A Zapline extension for automatic and adaptive removal of frequency-specific noise artifacts in EEG data*. [DOI / Link]
