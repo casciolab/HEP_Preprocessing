@@ -90,7 +90,7 @@ If you use this preprocessing pipeline in your research, please cite the reposit
 
 ---
 
-### 📚 BibTeX
+## 📚 BibTeX
 
 For LaTeX users:
 
@@ -102,8 +102,9 @@ For LaTeX users:
   howpublished = {\url{https://github.com/casciolab/HEP_Preprocessing}},
   note         = {Version 1.0}
 }
-
+```
 ---
+
 ## 📚 References
 
 [^1]: Klug, M., & Gramann, K. (2021). *Zapline-plus: A Zapline extension for automatic and adaptive removal of frequency-specific noise artifacts in EEG data*. [DOI / Link]
