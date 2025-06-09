@@ -63,7 +63,7 @@ Each step was carefully chosen to prepare the data for robust HEP detection and 
 ## 🛠 Tools Used
 
 - MATLAB / EEGLAB  
-- [Zapline-plus](https://github.com/methlabUZH/zapline-plus)  
+- [Zapline-plus](https://github.com/MariusKlug/zapline-plus)  
 - [HEPLAB](https://github.com/perakakis/HEPLAB)  
 - [AMICA](https://sccn.ucsd.edu/~jason/amicaweb.html)  
 - Custom preprocessing scripts
