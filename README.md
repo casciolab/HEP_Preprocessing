@@ -1,6 +1,26 @@
 # 🧠💓 EEG Preprocessing Pipeline for Heartbeat-Evoked Potentials (HEP) Analysis
 
-This repository documents the preprocessing pipeline applied to EEG data for **HEP (heartbeat-evoked potential)** analysis. The pipeline is designed to maximize signal quality while minimizing noise and physiological artifacts.
+This repository documents the preprocessing pipeline applied to EEG data for **HEP (heartbeat-evoked potential)** analysis.
+
+---
+
+## ⚠️ **Important Notes Before Use**
+
+This preprocessing pipeline relies on **modified versions** of toolboxes such as **EEGLAB** and **HEPLAB**. Please note that **downloading these toolboxes directly from their official websites will not ensure compatibility**. The custom modifications are essential for the automated functionality of this pipeline.
+
+🔌 **System Compatibility**  
+The entire pipeline is specifically tailored for EEG data acquired using a **128-channel EGI system** with `.mff` file formats. If you are using a different EEG system or data structure, modifications will be necessary:
+- Some scripts contain **hardcoded references to 128 channels** — these must be updated to match your system's configuration.
+- The pipeline assumes `.mff` input files and uses the corresponding EEGLAB import plugins. You will need to replace or modify these import steps if your data format differs.
+
+📁 **File Naming Convention**  
+If your raw data adheres to this convention, **no modifications will be required** in the subject loading and naming steps.
+
+The pipeline uses the underscore (`'_'`) as a delimiter to parse and rename datasets. To ensure seamless loading and compatibility across scripts, we **strongly recommend following this file naming format**.
+
+---
+
+Make sure to contact us for the toolboxes, adapt the importing function, and file naming logic to your specific dataset if it diverges from these defaults.
 
 ---
 
