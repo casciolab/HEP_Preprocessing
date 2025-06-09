@@ -82,11 +82,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-📌 **How to Cite Us**
+## 📌 **How to Cite Us**
 
 If you use this preprocessing pipeline in your research, please cite the repository as follows:
 
 > Fraile, M., Salamone, P., Zoltowski, A., Quackenbush, W., Keceli-Kaysili, B., & Cascio, C. J. (2025). *HEP_Preprocessing: EEG Preprocessing Pipeline for Heartbeat-Evoked Potentials (HEP) Analysis*. https://github.com/casciolab/HEP_Preprocessing
+
+---
 
 ### 📚 BibTeX
 
