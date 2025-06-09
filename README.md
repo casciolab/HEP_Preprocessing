@@ -13,7 +13,11 @@ The entire pipeline is specifically tailored for EEG data acquired using a **128
 - Some scripts contain **hardcoded references to 128 channels** — these must be updated to match your system's configuration.
 - The pipeline assumes `.mff` input files and uses the corresponding EEGLAB import plugins. You will need to replace or modify these import steps if your data format differs.
 
-📁 **File Naming Convention**  
+📁 **File Naming Convention**
+Raw EEG data files are expected to follow this structure:
+
+subjectNumber_task_date_time.mff
+
 If your raw data adheres to this convention, **no modifications will be required** in the subject loading and naming steps.
 
 The pipeline uses the underscore (`'_'`) as a delimiter to parse and rename datasets. To ensure seamless loading and compatibility across scripts, we **strongly recommend following this file naming format**.
