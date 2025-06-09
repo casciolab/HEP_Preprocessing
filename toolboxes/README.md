@@ -8,16 +8,12 @@
 
 This pipeline relies on **heavily modified versions of [EEGLAB](https://sccn.ucsd.edu/eeglab/index.php)** and **HEPLAB** tailored specifically for heartbeat and interoception-related EEG processing.
 
-These customizations include:
-- Extended preprocessing routines
-- Integrated HEP components
-- Automation of filtering, ASR, ZAPLINE, and bad channel detection
-
 ---
 
 ## 🚫 Why the Code Isn’t Here
 
-GitHub restricts uploads of individual files larger than 25MB via the web interface. Even when compressed, the full modified EEGLAB+HEPLAB package exceeds this limit.
+GitHub restricts uploads of individual files larger than 25MB via the web interface. 
+Even when compressed, the full modified EEGLAB+HEPLAB package exceeds this limit.
 
 ---
 
@@ -32,7 +28,7 @@ If you want to use the modified version:
 **Paula Salamone**  
 ✉️ `paula.salamone@liu.se`
 
-Let me know what you're working on, and I’ll provide a download link.
+Let any of us know what you're working on, and we will provide a download link.
 
 ---
 
